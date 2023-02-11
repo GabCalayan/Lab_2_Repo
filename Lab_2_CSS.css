@@ -1,0 +1,66 @@
+/* Adding styles for the image */
+img {
+    border-radius: 25%;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 0 auto;
+
+}
+
+/* Adding styles for the header */
+ h1 {
+    color: white;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+h2 {
+    color:white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    color:white;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 175%;
+}
+
+/* Adding styles for body */
+body {
+    background-color: black;
+}
+
+/* Adding styles for the navigation bar */
+.upNavigation {
+    background-color: black;
+    overflow: auto;
+    width: 250px;
+}
+
+.upNavigation a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    width: 25%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.upNavigation a:hover {
+    background-color: grey;
+    color:black;
+}
+
+.upNavigation a.active {
+    color:white;
+}
+
+/* Changing the global font of the html webpage */
+html * {
+    scroll-behavior: smooth;
+}
+
