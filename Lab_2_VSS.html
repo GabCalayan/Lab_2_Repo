@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css' rel='stylesheet' />
     <link = rel="stylesheet" href="Lab_2_CSS.css">
     <title>Toronto Wards and Neighbourhoods</title>
 </head>
@@ -15,7 +17,9 @@
                 <a class ="active" href="#Home"> Home </a>
                 <a href ="#about">About</a>
             </div>
+<!-- Adding the Neighboruhoods Map-->        
     <h2> Toronto Neighbourhoods Map </h2>
-    <h3> Toronto Wards Map </h3>
+             <div id='map'class='map'></div>
+             <script src="Lab_2_JS.js"></script>
 </body>
 </html>

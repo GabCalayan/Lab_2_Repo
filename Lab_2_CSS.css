@@ -27,6 +27,16 @@ h3 {
     font-size: 175%;
 }
 
+/*Adding map styles */
+.map {
+    position:absolute;
+    top:0;
+    bottom: 0;
+    width:50%;
+    height:50%;
+}
+
+
 /* Adding styles for body */
 body {
     background-color: black;
