@@ -1,0 +1,39 @@
+/* Adding some of the same stylings from homepage to my About page */
+h2 {
+    color:white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Adding styles for body */
+body {
+    background-color: black;
+}
+
+/* Changing the global font of the html webpage */
+html * {
+    scroll-behavior: smooth;
+}
+
+p {
+    font-family: 'Times New Roman', Times, sans-serif;
+    text-align: center;
+    color:white;
+    font-size: 200%;
+}
+
+/* Adding flex properties to my images */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Styling my images */
+img {
+    width: 100%;
+    height: 75%;
+    border-radius: 8px;
+}

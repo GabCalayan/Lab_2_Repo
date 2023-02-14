@@ -4,21 +4,23 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiaGVpc2VuemlsbGEiLCJhIjoiY2xjcXlmaHlqMGE5eTNwb
 //Adding map style 
 const map = new mapboxgl.Map ({
     container: 'map',
-    style: 'mapbox://styles/heisenzilla/cle0cuziq004g01qkf33v39lg',
+    style: 'mapbox://styles/heisenzilla/cle3bwyyp000j01miidfecf9t',
     center: [-79.3832, 43.6532],
     zoom: 8,
 });
 
-//Adding GEOJSON URL direct file 
-map.addSource ('Toronto', {
+//Adding a GEOJSON source 
+map.addSource('Neighborhood', {
     type: 'geojson',
-    data: 'https://raw.githubusercontent.com/GabCalayan/Lab_2_Repo/main/Neighbourhoods.geojson'
-
+    data: 'https://gabcalayan.github.io/Lab_2_Repo/Neighbourhoods.geojson'
 });
 
-//Adding map layer 
-map.addLayer ({
-    'id': 'Toronto_Neighbourhood',
-    'type': 'fill',
-    'source': 'Toronto',
+//Drawing the layer itself 
+map.addLayer({
+    id: 'Toronto_N',
+    type: 'fill',
+    source: 'Neigborhood',
+    paint: {
+        'fill-color': '#223b53'
+    }
 });

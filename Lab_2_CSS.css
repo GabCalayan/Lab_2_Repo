@@ -27,15 +27,28 @@ h3 {
     font-size: 175%;
 }
 
-/*Adding map styles */
-.map {
-    position:absolute;
-    top:0;
-    bottom: 0;
-    width:50%;
-    height:50%;
+/*Adding map styles (also using flexbox) */
+.parent{
+    display: flex;
+    justify-content: center;
 }
 
+.parent1{
+    display: flex;
+    justify-content: center;
+}
+
+.map {
+    position:auto;
+    width:1000px;
+    height:500px;
+}
+
+.map1 {
+    position:auto;
+    width:1000px;
+    height:500px;
+}
 
 /* Adding styles for body */
 body {
@@ -74,3 +87,12 @@ html * {
     scroll-behavior: smooth;
 }
 
+/*Styling the button */
+.button {
+   border:none;
+   background-color: inherit;
+   cursor: pointer;
+
+}
+
+.button:hover {background:grey;}
